@@ -17,12 +17,16 @@ var mongoClient = new MongoClient(mongoConnectionString);
 var mongoDatabase = mongoClient.GetDatabase(mongoDatabaseName);
 builder.Services.AddSingleton(mongoDatabase.GetCollection<GuestRsvp>(mongoCollectionName));
 
-// Configurar CORS para permitir peticiones desde Vite (localhost:5173)
+var allowedOrigins = builder.Configuration
+    .GetSection("Frontend:Urls")
+    .Get<string[]>()
+    ?? ["http://localhost:5173"];
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.AllowAnyOrigin()
+        policy.WithOrigins(allowedOrigins)
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
