@@ -1,0 +1,28 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test and coverage output
+TestResults/
+coverage/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Local environment and IDE files
+.env
+.env.*
+!.env.example
+*.DotSettings.user
+
+# Operating system files
+.DS_Store
+Thumbs.db
