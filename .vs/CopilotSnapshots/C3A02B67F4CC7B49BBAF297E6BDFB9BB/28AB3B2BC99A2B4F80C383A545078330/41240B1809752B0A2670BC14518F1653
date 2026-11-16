@@ -1,0 +1,58 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using WeddingApi.DTOs;
+using WeddingApi.Models;
+
+namespace WeddingApi.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class RsvpController : ControllerBase
+{
+    // Datos en memoria para pruebas locales (reemplazar por MongoDB / EF Core en producción)
+    private static readonly List<GuestRsvp> _guests = new()
+    {
+        new GuestRsvp { InvitationCode = "INV-001", GuestName = "Familia García", MaxPasses = 4 },
+        new GuestRsvp { InvitationCode = "INV-002", GuestName = "Sofía Martínez", MaxPasses = 2 },
+        new GuestRsvp { InvitationCode = "INV-003", GuestName = "Carlos López", MaxPasses = 3 }
+    };
+
+    [HttpGet]
+    public ActionResult<IEnumerable<GuestRsvp>> GetAll()
+    {
+        return Ok(_guests);
+    }
+
+    [HttpGet("{code}")]
+    public ActionResult<GuestRsvp> GetInvitation(string code)
+    {
+        var guest = _guests.FirstOrDefault(g =>
+            g.InvitationCode.Equals(code.Trim(), StringComparison.OrdinalIgnoreCase));
+
+        if (guest == null)
+            return NotFound(new { message = "Código de invitación no válido." });
+
+        return Ok(guest);
+    }
+
+    [HttpPost("confirm")]
+    public ActionResult ConfirmRsvp([FromBody] RsvpSubmitDto dto)
+    {
+        var guest = _guests.FirstOrDefault(g =>
+            g.InvitationCode.Equals(dto.InvitationCode.Trim(), StringComparison.OrdinalIgnoreCase));
+
+        if (guest == null)
+            return NotFound(new { message = "Invitación no encontrada." });
+
+        if (dto.IsAttending && (dto.ConfirmedPasses < 1 || dto.ConfirmedPasses > guest.MaxPasses))
+            return BadRequest(new { message = $"Puedes confirmar entre 1 y {guest.MaxPasses} pases." });
+
+        guest.IsAttending = dto.IsAttending;
+        guest.ConfirmedPasses = dto.IsAttending ? dto.ConfirmedPasses : 0;
+        guest.DietaryRestrictions = dto.DietaryRestrictions;
+        guest.SongRequest = dto.SongRequest;
+        guest.MessageForCouple = dto.MessageForCouple;
+        guest.RespondedAt = DateTime.UtcNow;
+
+        return Ok(new { message = "Confirmación guardada con éxito.", guest });
+    }
+}
