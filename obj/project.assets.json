@@ -1234,11 +1234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\WeddingApi.csproj",
+      "projectUniqueName": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\WeddingApi.csproj",
       "projectName": "WeddingApi",
-      "projectPath": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\WeddingApi.csproj",
+      "projectPath": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\WeddingApi.csproj",
       "packagesPath": "C:\\Users\\paula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\obj\\",
+      "outputPath": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

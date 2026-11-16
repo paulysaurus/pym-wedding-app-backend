@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hc7YL1oMdm4=",
+  "dgSpecHash": "vbcpRtnxdQw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\WeddingApi.csproj",
+  "projectFilePath": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\WeddingApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paula\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\paula\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

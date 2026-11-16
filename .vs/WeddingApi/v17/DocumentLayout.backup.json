@@ -1,34 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\",
+  "WorkspaceRootPath": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\models\\guestrsvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:models\\guestrsvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\dtos\\rsvpsubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:dtos\\rsvpsubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\weddingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\dtos\\rsvpsubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:dtos\\rsvpsubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\models\\guestrsvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:models\\guestrsvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}|",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\weddingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:weddingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}|",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|c:\\users\\paula\\source\\repos\\pym-wedding-app-backend\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{594E350E-2CBF-B31C-951D-A21FF4D9FDAA}|WeddingApi.csproj|solutionrelative:.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,58 +58,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 450,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-16T19:52:11.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RsvpSubmitDto.cs",
-              "DocumentMoniker": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\DTOs\\RsvpSubmitDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\RsvpSubmitDto.cs",
-              "ToolTip": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\DTOs\\RsvpSubmitDto.cs",
-              "RelativeToolTip": "DTOs\\RsvpSubmitDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T19:33:41.429Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T05:06:17.378Z",
+              "DocumentIndex": 11,
+              "Title": ".env.example",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\.env.example",
+              "RelativeDocumentMoniker": ".env.example",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\.env.example",
+              "RelativeToolTip": ".env.example",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T20:53:06.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T20:53:02.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GuestRsvp.cs",
-              "DocumentMoniker": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\Models\\GuestRsvp.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Models\\GuestRsvp.cs",
               "RelativeDocumentMoniker": "Models\\GuestRsvp.cs",
-              "ToolTip": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\Models\\GuestRsvp.cs",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Models\\GuestRsvp.cs",
               "RelativeToolTip": "Models\\GuestRsvp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,41 +105,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "RsvpSubmitDto.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\DTOs\\RsvpSubmitDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RsvpSubmitDto.cs",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\DTOs\\RsvpSubmitDto.cs",
+              "RelativeToolTip": "DTOs\\RsvpSubmitDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:33:41.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-15T05:06:17.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-11-15T05:06:16.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T20:45:12.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-16T19:52:11.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RsvpController.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Controllers\\RsvpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RsvpController.cs",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\Controllers\\RsvpController.cs",
+              "RelativeToolTip": "Controllers\\RsvpController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T22:05:18.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T20:13:25.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T20:45:15.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "WeddingApi.csproj",
-              "DocumentMoniker": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\WeddingApi.csproj",
+              "DocumentMoniker": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\WeddingApi.csproj",
               "RelativeDocumentMoniker": "WeddingApi.csproj",
-              "ToolTip": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\WeddingApi.csproj",
+              "ToolTip": "C:\\Users\\paula\\source\\repos\\pym-wedding-app-backend\\WeddingApi.csproj",
               "RelativeToolTip": "WeddingApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-11-15T05:06:15.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RsvpController.cs",
-              "DocumentMoniker": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\Controllers\\RsvpController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RsvpController.cs",
-              "ToolTip": "C:\\Users\\paula\\Documents\\wedding-invitation-fullstack\\wedding-invitation-fullstack\\backend\\Controllers\\RsvpController.cs",
-              "RelativeToolTip": "Controllers\\RsvpController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB8AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T22:05:18.485Z",
-              "EditorCaption": ""
             }
           ]
         },
