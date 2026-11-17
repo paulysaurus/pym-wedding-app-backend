@@ -17,10 +17,23 @@ var mongoClient = new MongoClient(mongoConnectionString);
 var mongoDatabase = mongoClient.GetDatabase(mongoDatabaseName);
 builder.Services.AddSingleton(mongoDatabase.GetCollection<GuestRsvp>(mongoCollectionName));
 
-var allowedOrigins = builder.Configuration
+var configuredOrigins = builder.Configuration
     .GetSection("Frontend:Urls")
-    .Get<string[]>()
-    ?? ["http://localhost:5173"];
+    .Get<string[]>() ?? [];
+
+var singleOrigin = builder.Configuration["Frontend:Url"];
+
+var allowedOrigins = configuredOrigins
+    .Append(singleOrigin)
+    .Where(origin => !string.IsNullOrWhiteSpace(origin))
+    .Select(origin => origin!.Trim().TrimEnd('/'))
+    .Distinct(StringComparer.OrdinalIgnoreCase)
+    .ToArray();
+
+if (allowedOrigins.Length == 0)
+{
+    allowedOrigins = ["http://localhost:5173"];
+}
 
 builder.Services.AddCors(options =>
 {
